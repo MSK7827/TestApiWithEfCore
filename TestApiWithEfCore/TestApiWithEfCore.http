@@ -1,0 +1,6 @@
+@TestApiWithEfCore_HostAddress = http://localhost:5109
+
+GET {{TestApiWithEfCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
